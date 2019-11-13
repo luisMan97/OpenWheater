@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  OpenWheater
 //
-//  Created by macOS on 13/11/19.
-//  Copyright © 2019 macOS. All rights reserved.
+//  Created by Jorge Luis Rivera Ladino on 13/11/19.
+//  Copyright © 2019 Jorge Luis Rivera Ladino. All rights reserved.
 //
 
 import UIKit

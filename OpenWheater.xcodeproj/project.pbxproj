@@ -12,6 +12,8 @@
 		22B46754237C2C6A00FD4FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B46752237C2C6A00FD4FC6 /* Main.storyboard */; };
 		22B46756237C2C6B00FD4FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B46755237C2C6B00FD4FC6 /* Assets.xcassets */; };
 		22B46759237C2C6B00FD4FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B46757237C2C6B00FD4FC6 /* LaunchScreen.storyboard */; };
+		22B46765237C2D3900FD4FC6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46764237C2D3900FD4FC6 /* APIManager.swift */; };
+		22B46767237C2D4300FD4FC6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46766237C2D4300FD4FC6 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		22B46755237C2C6B00FD4FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B46758237C2C6B00FD4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B4675A237C2C6B00FD4FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B46764237C2D3900FD4FC6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		22B46766237C2D4300FD4FC6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		22B4674D237C2C6A00FD4FC6 /* OpenWheater */ = {
 			isa = PBXGroup;
 			children = (
+				22B46763237C2D1F00FD4FC6 /* APIManager */,
+				22B46760237C2C8500FD4FC6 /* Main */,
+				22B46762237C2CCC00FD4FC6 /* Modules */,
+				22B46761237C2CBD00FD4FC6 /* Resources */,
+			);
+			path = OpenWheater;
+			sourceTree = "<group>";
+		};
+		22B46760237C2C8500FD4FC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				22B4674E237C2C6A00FD4FC6 /* AppDelegate.swift */,
-				22B46750237C2C6A00FD4FC6 /* ViewController.swift */,
-				22B46752237C2C6A00FD4FC6 /* Main.storyboard */,
-				22B46755237C2C6B00FD4FC6 /* Assets.xcassets */,
 				22B46757237C2C6B00FD4FC6 /* LaunchScreen.storyboard */,
 				22B4675A237C2C6B00FD4FC6 /* Info.plist */,
 			);
-			path = OpenWheater;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		22B46761237C2CBD00FD4FC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22B46755237C2C6B00FD4FC6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22B46762237C2CCC00FD4FC6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				22B46750237C2C6A00FD4FC6 /* ViewController.swift */,
+				22B46752237C2C6A00FD4FC6 /* Main.storyboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		22B46763237C2D1F00FD4FC6 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				22B46764237C2D3900FD4FC6 /* APIManager.swift */,
+				22B46766237C2D4300FD4FC6 /* Router.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B46767237C2D4300FD4FC6 /* Router.swift in Sources */,
+				22B46765237C2D3900FD4FC6 /* APIManager.swift in Sources */,
 				22B46751237C2C6A00FD4FC6 /* ViewController.swift in Sources */,
 				22B4674F237C2C6A00FD4FC6 /* AppDelegate.swift in Sources */,
 			);
@@ -284,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65W3CGU7V4;
-				INFOPLIST_FILE = OpenWheater/Info.plist;
+				INFOPLIST_FILE = OpenWheater/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65W3CGU7V4;
-				INFOPLIST_FILE = OpenWheater/Info.plist;
+				INFOPLIST_FILE = OpenWheater/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
