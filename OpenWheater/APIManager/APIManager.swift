@@ -18,6 +18,14 @@ class APIManager {
         Alamofire.request(service)
             .responseJSON { response in
                 if response.result.isSuccess {
+                    if response.response?.statusCode == 404 {
+                        let error = NSError(domain: "error", code: 404, userInfo: ["message": "city not found"])
+                        
+                        withCompletionBlock?(nil, error)
+                        
+                        return
+                    }
+                    
                     withCompletionBlock?(response.result.value, nil)
                 } else {
                     withCompletionBlock?(nil, response.result.error)

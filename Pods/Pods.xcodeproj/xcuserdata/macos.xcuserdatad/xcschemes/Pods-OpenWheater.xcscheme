@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E603364D49FDD9CE97A9337C141B551"
+               BlueprintIdentifier = "B231B87C12FF06FDBA29599A842A68A7"
                BuildableName = "Pods_OpenWheater.framework"
                BlueprintName = "Pods-OpenWheater"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E603364D49FDD9CE97A9337C141B551"
+            BlueprintIdentifier = "B231B87C12FF06FDBA29599A842A68A7"
             BuildableName = "Pods_OpenWheater.framework"
             BlueprintName = "Pods-OpenWheater"
             ReferencedContainer = "container:Pods.xcodeproj">

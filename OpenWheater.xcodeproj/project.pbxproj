@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22B4674F237C2C6A00FD4FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4674E237C2C6A00FD4FC6 /* AppDelegate.swift */; };
-		22B46751237C2C6A00FD4FC6 /* WheaterMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46750237C2C6A00FD4FC6 /* WheaterMapViewController.swift */; };
-		22B46754237C2C6A00FD4FC6 /* WheaterMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B46752237C2C6A00FD4FC6 /* WheaterMap.storyboard */; };
+		22B46754237C2C6A00FD4FC6 /* WeaterMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B46752237C2C6A00FD4FC6 /* WeaterMap.storyboard */; };
 		22B46756237C2C6B00FD4FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B46755237C2C6B00FD4FC6 /* Assets.xcassets */; };
 		22B46759237C2C6B00FD4FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B46757237C2C6B00FD4FC6 /* LaunchScreen.storyboard */; };
 		22B46765237C2D3900FD4FC6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46764237C2D3900FD4FC6 /* APIManager.swift */; };
@@ -18,6 +17,14 @@
 		22B46772237C393C00FD4FC6 /* WheaterMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46771237C393C00FD4FC6 /* WheaterMapViewModel.swift */; };
 		22B46776237C3AE500FD4FC6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46775237C3AE500FD4FC6 /* UIViewControllerExtension.swift */; };
 		22B46778237C3B8700FD4FC6 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46777237C3B8700FD4FC6 /* UIAlertControllerExtension.swift */; };
+		22B4677D237CCD5100FD4FC6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4677C237CCD5100FD4FC6 /* Weather.swift */; };
+		22B4677F237D1CC100FD4FC6 /* WeaterMapViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4677E237D1CC100FD4FC6 /* WeaterMapViewControllerExtension.swift */; };
+		22B46781237D2F2600FD4FC6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46780237D2F2600FD4FC6 /* Main.swift */; };
+		22B46783237D2F3F00FD4FC6 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46782237D2F3F00FD4FC6 /* Coord.swift */; };
+		22B46785237D2F5300FD4FC6 /* WeatherDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46784237D2F5300FD4FC6 /* WeatherDescription.swift */; };
+		22B46787237D2F6C00FD4FC6 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46786237D2F6C00FD4FC6 /* Sys.swift */; };
+		22B46789237D2F8400FD4FC6 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B46788237D2F8400FD4FC6 /* Wind.swift */; };
+		22B4678D237D335300FD4FC6 /* WeaterMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4678C237D335100FD4FC6 /* WeaterMapViewController.swift */; };
 		B6AF5EB0CC63B505469603E6 /* Pods_OpenWheater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD6B023A9CE2762EFB6EFF7 /* Pods_OpenWheater.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +32,7 @@
 		0132BCD7E0CCB0965E76FB51 /* Pods-OpenWheater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWheater.debug.xcconfig"; path = "Target Support Files/Pods-OpenWheater/Pods-OpenWheater.debug.xcconfig"; sourceTree = "<group>"; };
 		22B4674B237C2C6A00FD4FC6 /* OpenWheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4674E237C2C6A00FD4FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22B46750237C2C6A00FD4FC6 /* WheaterMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheaterMapViewController.swift; sourceTree = "<group>"; };
-		22B46753237C2C6A00FD4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WheaterMap.storyboard; sourceTree = "<group>"; };
+		22B46753237C2C6A00FD4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WeaterMap.storyboard; sourceTree = "<group>"; };
 		22B46755237C2C6B00FD4FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B46758237C2C6B00FD4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B4675A237C2C6B00FD4FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 		22B46771237C393C00FD4FC6 /* WheaterMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheaterMapViewModel.swift; sourceTree = "<group>"; };
 		22B46775237C3AE500FD4FC6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		22B46777237C3B8700FD4FC6 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		22B4677C237CCD5100FD4FC6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		22B4677E237D1CC100FD4FC6 /* WeaterMapViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaterMapViewControllerExtension.swift; sourceTree = "<group>"; };
+		22B46780237D2F2600FD4FC6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		22B46782237D2F3F00FD4FC6 /* Coord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
+		22B46784237D2F5300FD4FC6 /* WeatherDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDescription.swift; sourceTree = "<group>"; };
+		22B46786237D2F6C00FD4FC6 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		22B46788237D2F8400FD4FC6 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		22B4678C237D335100FD4FC6 /* WeaterMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaterMapViewController.swift; sourceTree = "<group>"; };
 		48D9DF31838BFB6A47E47A73 /* Pods-OpenWheater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWheater.release.xcconfig"; path = "Target Support Files/Pods-OpenWheater/Pods-OpenWheater.release.xcconfig"; sourceTree = "<group>"; };
 		CFD6B023A9CE2762EFB6EFF7 /* Pods_OpenWheater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWheater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,7 +119,7 @@
 		22B46762237C2CCC00FD4FC6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				22B4676D237C387900FD4FC6 /* WheaterMap */,
+				22B4676D237C387900FD4FC6 /* CurrentWeather */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -119,14 +133,14 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
-		22B4676D237C387900FD4FC6 /* WheaterMap */ = {
+		22B4676D237C387900FD4FC6 /* CurrentWeather */ = {
 			isa = PBXGroup;
 			children = (
-				22B46770237C38BF00FD4FC6 /* Model */,
+				22B4677B237CCD4100FD4FC6 /* Model */,
 				22B4676F237C38B600FD4FC6 /* View */,
 				22B4676E237C38AA00FD4FC6 /* ViewModel */,
 			);
-			path = WheaterMap;
+			path = CurrentWeather;
 			sourceTree = "<group>";
 		};
 		22B4676E237C38AA00FD4FC6 /* ViewModel */ = {
@@ -140,17 +154,11 @@
 		22B4676F237C38B600FD4FC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				22B46750237C2C6A00FD4FC6 /* WheaterMapViewController.swift */,
-				22B46752237C2C6A00FD4FC6 /* WheaterMap.storyboard */,
+				22B4678C237D335100FD4FC6 /* WeaterMapViewController.swift */,
+				22B4677E237D1CC100FD4FC6 /* WeaterMapViewControllerExtension.swift */,
+				22B46752237C2C6A00FD4FC6 /* WeaterMap.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		22B46770237C38BF00FD4FC6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		22B46773237C3AA700FD4FC6 /* Utils */ = {
@@ -168,6 +176,19 @@
 				22B46777237C3B8700FD4FC6 /* UIAlertControllerExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22B4677B237CCD4100FD4FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22B4677C237CCD5100FD4FC6 /* Weather.swift */,
+				22B46780237D2F2600FD4FC6 /* Main.swift */,
+				22B46782237D2F3F00FD4FC6 /* Coord.swift */,
+				22B46784237D2F5300FD4FC6 /* WeatherDescription.swift */,
+				22B46786237D2F6C00FD4FC6 /* Sys.swift */,
+				22B46788237D2F8400FD4FC6 /* Wind.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2856AF553DCC74C9EE99255D /* Frameworks */ = {
@@ -251,7 +272,7 @@
 			files = (
 				22B46759237C2C6B00FD4FC6 /* LaunchScreen.storyboard in Resources */,
 				22B46756237C2C6B00FD4FC6 /* Assets.xcassets in Resources */,
-				22B46754237C2C6A00FD4FC6 /* WheaterMap.storyboard in Resources */,
+				22B46754237C2C6A00FD4FC6 /* WeaterMap.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +312,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-OpenWheater/Pods-OpenWheater-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -299,6 +321,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,25 +336,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B46781237D2F2600FD4FC6 /* Main.swift in Sources */,
 				22B46767237C2D4300FD4FC6 /* Router.swift in Sources */,
 				22B46765237C2D3900FD4FC6 /* APIManager.swift in Sources */,
 				22B46776237C3AE500FD4FC6 /* UIViewControllerExtension.swift in Sources */,
-				22B46751237C2C6A00FD4FC6 /* WheaterMapViewController.swift in Sources */,
 				22B4674F237C2C6A00FD4FC6 /* AppDelegate.swift in Sources */,
+				22B46787237D2F6C00FD4FC6 /* Sys.swift in Sources */,
+				22B46783237D2F3F00FD4FC6 /* Coord.swift in Sources */,
 				22B46778237C3B8700FD4FC6 /* UIAlertControllerExtension.swift in Sources */,
+				22B46789237D2F8400FD4FC6 /* Wind.swift in Sources */,
+				22B4678D237D335300FD4FC6 /* WeaterMapViewController.swift in Sources */,
 				22B46772237C393C00FD4FC6 /* WheaterMapViewModel.swift in Sources */,
+				22B4677D237CCD5100FD4FC6 /* Weather.swift in Sources */,
+				22B4677F237D1CC100FD4FC6 /* WeaterMapViewControllerExtension.swift in Sources */,
+				22B46785237D2F5300FD4FC6 /* WeatherDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		22B46752237C2C6A00FD4FC6 /* WheaterMap.storyboard */ = {
+		22B46752237C2C6A00FD4FC6 /* WeaterMap.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				22B46753237C2C6A00FD4FC6 /* Base */,
 			);
-			name = WheaterMap.storyboard;
+			name = WeaterMap.storyboard;
 			sourceTree = "<group>";
 		};
 		22B46757237C2C6B00FD4FC6 /* LaunchScreen.storyboard */ = {
