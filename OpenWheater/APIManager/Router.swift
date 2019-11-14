@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-enum CPSApiManagerConstants {
+enum ApiManagerConstants {
     enum keys {
         static let cpsEndpoint = "https://api.openweathermap.org/data/2.5/"
     }
@@ -34,7 +34,7 @@ enum Router: URLRequestConvertible {
     }
     
     func asURLRequest() throws -> URLRequest {
-        let url = URL(string: CPSApiManagerConstants.keys.cpsEndpoint)
+        let url = URL(string: ApiManagerConstants.keys.cpsEndpoint)
         
         var mutableURLRequest = URLRequest(url: (url?.appendingPathComponent(path))!)
         mutableURLRequest.httpMethod = method.rawValue
