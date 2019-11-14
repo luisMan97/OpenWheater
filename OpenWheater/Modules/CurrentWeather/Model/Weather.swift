@@ -27,14 +27,3 @@ struct Weater: Mappable {
         sys                <- map["sys"]
     }
 }
-
-
-
-
-
-
-
-
-
-
-
