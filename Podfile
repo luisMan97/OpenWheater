@@ -9,8 +9,6 @@ target 'OpenWheater' do
 
   # Pods for OpenWheater
   pod 'Alamofire', '~> 4.0'
-  pod 'SwiftyJSON', '~> 4.0'
-  pod 'Kingfisher', '~> 5.0'
   pod 'ObjectMapper', '~> 3.4'
   
 end
